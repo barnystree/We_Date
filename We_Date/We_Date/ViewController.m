@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIView *bgView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 568)];
+    bgView.layer.backgroundColor = [UIColor redColor].CGColor;
+    [self.view addSubview:bgView];
 }
 
 - (void)didReceiveMemoryWarning {

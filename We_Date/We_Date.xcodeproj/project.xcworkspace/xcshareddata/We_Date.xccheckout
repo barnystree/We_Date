@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DB809DF2-F1F6-468A-8C4F-334E204FA60C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>We_Date</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5BE4EAB18C267E3D8C56A78DDA563AD2FE661F67</key>
+		<string>https://github.com/barnystree/We_Date.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>We_Date/We_Date.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5BE4EAB18C267E3D8C56A78DDA563AD2FE661F67</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/barnystree/We_Date.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5BE4EAB18C267E3D8C56A78DDA563AD2FE661F67</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5BE4EAB18C267E3D8C56A78DDA563AD2FE661F67</string>
+			<key>IDESourceControlWCCName</key>
+			<string>We_Date</string>
+		</dict>
+	</array>
+</dict>
+</plist>
