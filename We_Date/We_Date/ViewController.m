@@ -17,9 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UIView *bgView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 568)];
-    bgView.layer.backgroundColor = [UIColor redColor].CGColor;
-    [self.view addSubview:bgView];
+    
+    //创建live2d
+    NSString *paths = [NSString stringWithFormat:@"live2d/%@/%@.model.json",@"shizuku",@"shizuku"];
+    NSArray *array = [NSArray arrayWithObjects:paths, nil];
+    DELive2dViewController *live2d = [[DELive2dViewController alloc] initWithModelsArray:[NSArray arrayWithObjects:array, nil]];
+    [self addChildViewController:live2d];
+    [self.view addSubview:live2d.view];
+
 }
 
 - (void)didReceiveMemoryWarning {

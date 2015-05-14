@@ -1,0 +1,24 @@
+//
+//  We_Date-Prefix.pch
+//  We_Date
+//
+//  Created by 梁臣 on 15/5/14.
+//  Copyright (c) 2015年 梁臣. All rights reserved.
+//
+
+#ifndef We_Date_We_Date_Prefix_pch
+#define We_Date_We_Date_Prefix_pch
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <AVFoundation/AVFoundation.h>
+#import <OpenGLES/ES1/gl.h>
+#import <UIKit/UIKit.h>
+
+#import "DELive2dViewController.h"
+
+#endif
+
+#endif
